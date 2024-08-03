@@ -23,4 +23,15 @@ let minusculas = palabras.toLowerCase();
 console.log("Esta es la frase en Mayuscula : " + mayusculas);
 console.log("Esta es la frase en Minuscula : " + minusculas);
 
+let dibu = "Buenos dias";
+let jo= " a todos";
+let mensajefinal = dibu.concat(jo);
+console.log ("HOLAAAA : " + mensajefinal);
+
+
+let nuevafrase = "Estoy programando en Javascript";
+let posicion = nuevafrase.indexOf("Javascript");
+
+console.log ("Posicion :" + posicion);
+
 
