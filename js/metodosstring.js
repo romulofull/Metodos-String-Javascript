@@ -33,5 +33,21 @@ let nuevafrase = "Estoy programando en Javascript";
 let posicion = nuevafrase.indexOf("Javascript");
 
 console.log ("Posicion :" + posicion);
+if (posicion>=0) {
+    console.log ("Encontre en la posicion :" + posicion);
+}
+else {
+    console.log ("No encontre la palabra buscada");
+}
+
+let nuevafrases = "Estoy programando en Javascript";
+let bandera = nuevafrases.includes("Javascript");
+
+if (bandera==true) {
+    console.log ("Encontre la palabra");
+}
+else {
+    console.log ("No encontre la palabra buscada");
+}
 
 
